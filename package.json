@@ -1,0 +1,68 @@
+{
+  "name": "mylinks.space",
+  "version": "1.0.0",
+  "description": " A serverless social cards sharing web app",
+  "type": "module",
+  "source": [
+    "src/app.js",
+    "src/index.html",
+    "src/card.html",
+    "src/landing.html"
+  ],
+  "parcelIgnore": [
+    "generative.js"
+  ],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "purge": "rimraf .parcel-cache && node purge.js",
+    "build": "npm run purge && parcel build --no-source-maps --dist-dir docs",
+    "serve": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanna92yar/mylinks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanna92yar/mylinks/issues"
+  },
+  "homepage": "https://github.com/yanna92yar/mylinks#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@parcel/service-worker": "^2.9.3",
+    "@rwap/jquery-ui-touch-punch": "^1.0.11",
+    "canvas-confetti": "^1.6.0",
+    "huebee": "^2.1.1",
+    "jquery": "^3.7.0",
+    "jquery-ui": "^1.13.2",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "print-js": "^1.6.0",
+    "qrcode": "^1.5.3",
+    "sharer.js": "^0.5.1",
+    "social-links": "^1.13.8",
+    "stonejs": "^2.7.0",
+    "stretchy": "^2.0.1",
+    "toastify-js": "^1.12.0",
+    "trystero": "^0.13.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.10",
+    "@parcel/packager-raw-url": "^2.9.3",
+    "@parcel/reporter-bundle-analyzer": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "@parcel/transformer-webmanifest": "^2.9.3",
+    "del-cli": "^5.0.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "parcel": "^2.9.3",
+    "parcel-resolver-ignore": "^2.1.5",
+    "posthtml-include": "^1.7.4",
+    "rimraf": "^5.0.1",
+    "serve": "^14.2.0"
+  }
+}

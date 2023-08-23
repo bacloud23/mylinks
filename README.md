@@ -34,15 +34,10 @@ The rendered social card is like this:
 ![capture](.github/rendered_card.png)
 
 
-## TODOs
-
-- I'm struggling to have the right PWA manifest part of the Parcel build process.
-- Better design
-- Finishing with some bugs (decrypt a card twice)
-- Shrink the bundle size especially with the imported `@fortawesome/fontawesome-free/js/all`
+## The website is for sale. Please reach out by mail for discussions.
 
 ## License
-MIT   
+All rights reserved
 Algebra-insights Inc.  
 France 2023
 
